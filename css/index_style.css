@@ -62,7 +62,7 @@ color: #333;
     z-index: 555555; 
 
 }
-#btnup:focus{border: #ff305b;}
+#btnup.active{border: #ff305b;}
 /*header section*/
 header{
     
@@ -335,7 +335,10 @@ transition: all .5s ;
     font-family: 'Source Sans Pro', sans-serif;
 
 }
-#Portfolioa:hover {
+#portfolio .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent;
+}
+#Portfolio a:hover {
     text-decoration: none;
 }
 #Portfolio .active{    color: #ff305b;
